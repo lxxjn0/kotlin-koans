@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 92
-    length: 6
+    length: 24
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 92
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '"""\d{2} $month \d{4}"""'
   text: |
     val month = "(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)"
@@ -45,5 +45,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 07 Dec 2020 15:47:50 UTC
 record: -1
